@@ -19,9 +19,9 @@ public class Runner {
 		PriceComp p2=new PriceComp("AverageJoes", 15,11,17.99);
 		PriceComp p3=new PriceComp("DuluxourousPaints", 10,20,25.00);
 		
-		System.out.println("CheapoMax pricePerm2 "+p1.priceCal());
-		System.out.println("AverageJoes pricePerm2 "+p2.priceCal());
-		System.out.println("DuluxourousPaints pricePerm2 "+p3.priceCal());
+		System.out.println(p1.paintBrand+" pricePerm2 "+p1.priceCal());
+		System.out.println(p2.paintBrand+"pricePerm2"+p2.priceCal());
+		System.out.println(p3.paintBrand+"pricePerm2 "+p3.priceCal());
 		
         double perm2CostforCheapoMax=p1.priceCal();
         double perm2CostforAverageJoes=p2.priceCal();

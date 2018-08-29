@@ -10,16 +10,16 @@ public class FindCheap {
 		
 		if(cheapoMax<averageJoes && cheapoMax<duluxourousPaints)
 		{
-			System.out.println("CheapoMax is cheaper");
+			System.out.println("CheapoMax is the cheapest");
 		}
 		if(averageJoes<cheapoMax && averageJoes<duluxourousPaints)
 		{
-			System.out.println("averageJoes is cheaper");
+			System.out.println("averageJoes is cheapest");
 		}
 		
 		if(duluxourousPaints<cheapoMax && duluxourousPaints<averageJoes)
 		{
-			System.out.println("duluxourousPaints is cheaper");
+			System.out.println("duluxourousPaints is cheapest");
 		}
 		
 	}
