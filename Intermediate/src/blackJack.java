@@ -18,15 +18,15 @@ public class blackJack {
        
      
     	System.out.println("After condition met");
-    	System.out.println(blackjack(a,b));
+    	System.out.println(play(a,b));
     }
 	
-	public static int blackjack(int a, int b) {
+	public static int play(int a, int b) {
 		  if (a>21){
 		    if (b>21){ 
-		     return 0;
-		   }
-		   return b;
+		    	return 0;
+		    }
+		  return b;
 		  }
 
 		  if (b>21){
@@ -34,8 +34,10 @@ public class blackJack {
 			     return 0;
 			   }
 			   return a;
-			  }
-		 
-		  return Math.max(a,b);
+		 }
+		 if (a==b) {
+			 return 0;
+		 }
+		 return Math.max(a,b);
 		}
 }
