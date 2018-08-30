@@ -1,3 +1,4 @@
+import java.awt.Toolkit;
 import java.util.HashMap;
 
 
@@ -54,5 +55,6 @@ public class MrseCodeT {
 		  }  
 	  }
 	  System.out.println(output);
+	  Toolkit.getDefaultToolkit().beep();
   }
 }
