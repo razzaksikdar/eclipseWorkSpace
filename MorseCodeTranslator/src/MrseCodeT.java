@@ -4,6 +4,7 @@ import java.util.HashMap;
 
 public class MrseCodeT {
 		HashMap<String, String> map=new HashMap<>();
+		
 		public void add() {
 			map.put(".-", "A");
 			map.put("-...", "B");
